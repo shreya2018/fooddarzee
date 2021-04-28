@@ -19,6 +19,7 @@
             <v-expansion-panel-content class="answer-panel">{{qa.A}}</v-expansion-panel-content>
         </v-expansion-panel>
     </v-expansion-panels>
+    <v-btn color="#d13526" outlined rounded class="get-started-btn"><h4>Get Started</h4></v-btn>
     </div>
 </template>
 
@@ -65,6 +66,10 @@ p{
 .answer-panel{
     font-size:0.5em;
     text-align: left;
+}
+.get-started-btn{
+    margin: 0 1em;
+    width: fit-content;
 }
 @media screen and (min-width: 750px) and (max-width:1025px){
   h2{font-size:1.2em}

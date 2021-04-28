@@ -48,6 +48,7 @@
         <Carousel2 />
         <TailorMadeNutrition/>
         <DishDescription/>
+        <CustomerReview/>
         <EatTastyEatHealthy/>
         <WhatsTheCatch/>
       </div>
@@ -66,6 +67,7 @@ import TailorMadeNutrition from './views/TailorMadeNutrition.vue'
 import DishDescription from './views/DishDescription.vue'
 import EatTastyEatHealthy from './views/EatTastyEatHealthy.vue'
 import WhatsTheCatch from './views/WhatsTheCatch.vue'
+import CustomerReview from './views/CustomerReview.vue'
 export default {
   name: 'App',
   components: {
@@ -77,7 +79,8 @@ export default {
     TailorMadeNutrition,
     DishDescription,
     EatTastyEatHealthy,
-    WhatsTheCatch
+    WhatsTheCatch,
+    CustomerReview
   },
   data: () => ({
       links: [
