@@ -45,6 +45,8 @@ export default {
     min-height: 650px;
     position: relative;
     display: flex;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 .strip7-heading1{
   font-size: 0.8em;  
@@ -116,7 +118,7 @@ img{
     .strip7-heading1-responsive{ display: flex;}
     .sub2-strip7{margin:0 0 0 0}
     .sub2-strip7{ justify-content: flex-start;}
-  
+    p{font-size: 0.45em}
 }
 
 </style>

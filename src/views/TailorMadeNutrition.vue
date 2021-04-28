@@ -70,6 +70,8 @@ export default {
 <style scoped>
 .strip5{
     background: url("../assets/TailorMadeNutritionBackgroundImage.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
     width:100%;
     min-height: 650px;
     position: relative;
@@ -162,6 +164,7 @@ img{
     .sub-strip5{max-width: 720px;}
     .sub2-strip5{flex-direction: column-reverse; margin:-2em 0 -2em 0;justify-content: flex-start; }
     .tmn-list{width: 100%;}
+    p{font-size: 0.45em}
 }
 @media screen and (max-width: 750px){
     .strip5-heading1 {display: none;}
@@ -170,6 +173,8 @@ img{
     .tmn-list-item{height:3em; margin: 0 0 2.5em 0 ;}
     .tmn-content{ margin-top: 3.5em;}
     .tmn-list{width: 100%;}
+    .sub-background-img{width: 50%;}
+    p{font-size: 0.45em}
 
 }
 </style>

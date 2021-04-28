@@ -43,6 +43,8 @@ export default {
     min-height: 650px;
     position: relative;
     display: flex;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 .strip6-heading1{
   font-size: 0.8em;  
@@ -114,7 +116,8 @@ img{
     .strip6-heading1-responsive{ display: flex;}
     .sub2-strip6{margin:0 0 0 0}
     .sub2-strip6{ justify-content: flex-start;}
-    p{margin-top:15em;}
+    p{margin-top:20em;font-size: 0.45em}
+    .sub-background-img{width: 100%;}
 }
 
 </style>

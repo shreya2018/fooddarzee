@@ -39,6 +39,10 @@
     </v-navigation-drawer>
     </header>
     <div class="padding-constraint remove-padding">
+      <div class="side-float">
+        <div class="side-icon"><v-icon color="#000">mdi-facebook</v-icon></div>
+        <div class="side-icon"><v-icon color="#000">mdi-instagram</v-icon></div>
+      </div>
     <section id="banner">
       
         <div class="strip">
@@ -161,6 +165,16 @@ padding: 0 6% 0 6%;
   position:fixed !important;
   right:-1.2em;
   top:3em;
+}
+.side-float{
+  
+  position: fixed;
+  left:0;
+  top: 300px;
+}
+.side-icon{
+  padding: 0.4em;
+  background-color: aliceblue;
 }
 .navigation-bar{
   background-color: #362e3d !important;

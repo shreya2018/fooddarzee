@@ -54,12 +54,14 @@ export default {
 
 <style scoped>
 .strip3{
-  background: url("../assets/strip3BackgroundImage.webp") bottom;
+  background: url("../assets/strip3BackgroundImage.webp");
   width:100%;
   height: 100%;
   background-size: cover;
   display: flex;
   text-align: left;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 .strip3-heading1{
   font-size: 0.8em;  
@@ -85,6 +87,7 @@ p{
     .strip3-heading1 {display: none;}
     .strip3 {flex-wrap: wrap;}
     .strip3-heading1-responsive {display: inline;}
+    p{font-size: 0.45em}
 }
 
 </style>        

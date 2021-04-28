@@ -3,23 +3,23 @@
         <div>
             <h3>Use our App on any device</h3>
             <div class="app-information">  
-                <v-btn outline class="app-info">
+                <v-btn outlined class="app-info">
                     <v-icon size="50px">mdi-apple</v-icon>
-                    <div>
+                    <div class="text">
                         <div class="text1">Download on the</div>
                         <div class="text2">APP Store</div>
                     </div>
                 </v-btn>
-                <v-btn outline class="app-info">
+                <v-btn outlined class="app-info">
                     <v-icon size="50px">mdi-android</v-icon>
-                    <div>
+                    <div class="text">
                         <div class="text1">Download on the</div>
                         <div class="text2">Google Play</div>
                     </div>
                 </v-btn>
-                <v-btn outline class="app-info">
+                <v-btn outlined class="app-info">
                     <v-icon size="50px">mdi-desktop-mac</v-icon>
-                    <div>
+                    <div class="text">
                         <div class="text1">Open in</div>
                         <div class="text2">Browser</div>
                     </div>
@@ -91,9 +91,15 @@ export default {
     padding: 0.5em 0.5em 0.5em !important;
     margin: 1em 1em 1em;
     width:18em;
+    justify-content: flex-start;
+}
+.text{
+    margin-left:0.5em;
+    text-align: left;
 }
 .text1{
     font-size: 14px;
+    
 }
 .text2{
     font-size: 24px;
