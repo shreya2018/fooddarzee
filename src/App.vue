@@ -38,22 +38,58 @@
       </v-list>
     </v-navigation-drawer>
     </header>
-    <section id="strip1">
-      <div class="padding-constraint remove-padding">
+    <div class="padding-constraint remove-padding">
+    <section id="banner">
+      
         <div class="strip">
           <Banner/>
         </div>
-        <Services/>
-        <Carousel1 />
-        <Carousel2 />
-        <TailorMadeNutrition/>
-        <DishDescription/>
-        <CustomerReview/>
-        <EatTastyEatHealthy/>
-        <WhatsTheCatch/>
-      </div>
+      
     </section>
-    
+    <section id="services">
+      
+        <Services/>
+      
+    </section>
+    <section id="carousel1">
+      
+        <Carousel1 />
+      
+    </section>
+    <section id="carousel2">
+      
+        <Carousel2 />
+      
+    </section>
+    <section id="tailormadenutrition">
+      
+        <TailorMadeNutrition/>
+      
+    </section>
+    <section id="dishdescription">
+      
+        <DishDescription/>
+      
+    </section>
+    <section id="customerreview">
+      
+        <CustomerReview/>
+      
+    </section>
+    <section id="eattastyeathealthy">
+      
+        <EatTastyEatHealthy/>
+      
+    </section>
+    <section id="whatsthecatch">
+      
+        <WhatsTheCatch/>
+      
+    </section>
+    </div>
+  <footer>
+    <Footer/>
+  </footer>    
   </v-app>
 </template>
 
@@ -68,6 +104,7 @@ import DishDescription from './views/DishDescription.vue'
 import EatTastyEatHealthy from './views/EatTastyEatHealthy.vue'
 import WhatsTheCatch from './views/WhatsTheCatch.vue'
 import CustomerReview from './views/CustomerReview.vue'
+import Footer from './views/Footer.vue'
 export default {
   name: 'App',
   components: {
@@ -80,7 +117,8 @@ export default {
     DishDescription,
     EatTastyEatHealthy,
     WhatsTheCatch,
-    CustomerReview
+    CustomerReview,
+    Footer
   },
   data: () => ({
       links: [
